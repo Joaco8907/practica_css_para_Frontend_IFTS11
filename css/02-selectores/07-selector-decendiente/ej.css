@@ -1,0 +1,21 @@
+.productos p{
+    color:green;
+}
+
+.ventas p{
+    color:red;
+}
+
+.productos .oferta{
+    font-weight: bold;
+}
+
+.productos button{
+    background-color: blue;
+    color:white;
+}
+
+.ventas button{
+    background-color: black;
+    color:white
+}

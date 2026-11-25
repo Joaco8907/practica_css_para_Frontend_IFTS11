@@ -1,0 +1,18 @@
+h1,h2{
+    color:blue;
+}
+
+.disponible, #oferta{
+    color:green;
+    font-weight: bold;
+}
+
+.agotado{
+    color:red;
+}
+
+button#cargar, button#limpiar{
+    background-color: black;
+    color:white;
+    padding: 10px;
+}

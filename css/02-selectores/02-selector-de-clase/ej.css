@@ -1,0 +1,17 @@
+.disponible{
+    color: green;
+}
+
+.agotado{
+    color: red;
+}
+
+.principal{
+    background-color: blue;
+    color: white;
+}
+
+.secundario{
+    background-color: gray;
+    color: black
+}

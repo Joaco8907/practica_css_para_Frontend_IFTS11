@@ -1,0 +1,25 @@
+#titulo{
+    color:blue;
+}
+
+#producto{
+    font-weight: bold;
+}
+
+#precio{
+    color:green;
+}
+
+#stock{
+    color:orange;
+}
+
+#cargar{
+    background-color: green;
+    color: white;
+}
+
+#eliminar{
+    background-color: red;
+    color: white;
+}

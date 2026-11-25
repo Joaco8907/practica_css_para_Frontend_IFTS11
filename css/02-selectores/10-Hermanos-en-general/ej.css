@@ -1,0 +1,12 @@
+h2 ~ p{
+    color:green;
+}
+
+h2 ~ button{
+    background-color: black;
+    color: white;
+}
+
+h3 ~ p{
+    font-weight: bold;
+}

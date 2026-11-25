@@ -1,0 +1,29 @@
+/* 
+*Únicamente los párrafos con clase oferta deben tener texto en negrita.
+*Los elementos que tengan las clases producto y disponible deben tener color verde.
+*Los elementos que tengan las clases producto y agotado deben tener color rojo.
+*Únicamente los botones con clase oferta deben tener fondo azul y texto blanco.
+*El botón con ID eliminar debe tener fondo rojo y texto blanco, combinando etiqueta e ID.**/
+
+p.oferta{
+    font-weight: bold;
+}
+
+.producto.disponible{
+    color:green;
+}
+
+.producto.agotado{
+    color:red;
+}
+
+button.oferta{
+    background-color: blue;
+    color:white;
+}
+
+button#eliminar{
+    background-color: red;
+    color:white
+}
+

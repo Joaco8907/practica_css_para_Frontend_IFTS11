@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#titulo{
+    color:blue;
+}
+
+td,th{
+    border: solid black 1px;
+    padding: 10px
+}
+
+tr th{
+    background-color: black;
+    color: white;
+}
+
+tr.disponible td{
+    background-color: lightgreen;
+}
+
+tr.agotado td {
+    background-color: lightcoral;
+}
+
+tr.disponible.oferta{
+    font-weight: bold;
+}
+
+td.precio{
+    text-align: right;
+}
+
+h2 + p{
+    color:green;
+}
+
+button[disabled]{
+    background-color: grey;
+}
+
+button#cargar{
+    background-color: blue;
+    color:white;
+}
+
+a[href$=".pdf"]{
+    color:orange
+}

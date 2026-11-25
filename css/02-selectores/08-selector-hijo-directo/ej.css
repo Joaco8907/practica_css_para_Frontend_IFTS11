@@ -1,0 +1,29 @@
+.productos > p{
+    color:green;
+}
+
+section > p{
+    color:orange;
+}
+
+.productos > button{
+    background-color: blue;
+    color:white
+}
+
+section > button{
+    background-color: black;
+    color:white;
+}
+
+.productos{
+    border: solid 1px rgb(194, 193, 193);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section{
+    border: solid 1px rgb(194, 193, 193);
+    padding: 10px;
+    border-radius: 10px;
+}

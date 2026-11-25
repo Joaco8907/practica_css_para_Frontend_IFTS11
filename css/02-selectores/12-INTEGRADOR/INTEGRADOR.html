@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ej.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Gestión de productos</h1>
+
+<div class="contenedor">
+
+    <h2>Inventario</h2>
+
+    <p>Listado de productos disponibles</p>
+
+    <table id="inventario">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="disponible">
+                <td>Mouse</td>
+                <td class="precio">$500</td>
+                <td>10</td>
+            </tr>
+
+            <tr class="agotado">
+                <td>Teclado</td>
+                <td class="precio">$800</td>
+                <td>0</td>
+            </tr>
+
+            <tr class="disponible oferta">
+                <td>Monitor</td>
+                <td class="precio">$4000</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="cargar">Cargar productos</button>
+    <button disabled>Eliminar producto</button>
+
+</div>
+
+<p>Fin del inventario</p>
+
+<a href="inventario.pdf">Descargar inventario</a>
+</body>
+</html>
