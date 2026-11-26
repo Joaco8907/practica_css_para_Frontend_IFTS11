@@ -1,0 +1,47 @@
+/* css 15ptos
+* usar un archivo css externo. (ok)
+*centrar el tiitulo, la tabla y el boton en la pagina.
+*apicar estilo a la tabla: ancho maximo del 70%, bordes y color de cabecera.*/
+
+.titulo{
+    text-align: center;
+    color:blue;
+
+.tabla{
+    border: solid black 3px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    max-width: 70%;    
+    box-shadow: 5px 5px 5px;
+}
+
+
+.tabla th, .tabla td{
+    border: solid blue 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tabla th{
+    background-color: aqua;
+}
+
+th:hover{
+    background-color: orange;
+    box-shadow: 5px -5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boton{
+    display: block;
+    margin: 20px auto
+}
+
+footer{
+    text-align: center;
+    margin:20px
+}
+
+
+

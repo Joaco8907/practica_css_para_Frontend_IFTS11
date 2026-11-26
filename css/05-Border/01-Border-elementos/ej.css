@@ -1,0 +1,72 @@
+caption{
+    color:blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+thead{
+    background-color: black;
+    color:white;
+}
+
+tbody{
+    background-color: lightblue;
+}
+
+tfoot{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+#productos td,#productos th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.contenedor{
+    width: 800px;
+    background-color: orange;
+}
+
+table{
+    width: 100%;
+    margin: 25px auto;
+    max-width: 700px;
+    background-color: brown;
+    border: solid black 4px;
+}
+
+.contenedor {
+    width: 1000px;
+    background-color: lightgray;
+    display:flow-root
+}
+
+thead tr{
+    height: 60px;
+}
+
+tbody tr{
+    height: 50px;
+}
+
+tfoot tr{
+    height: 40px;
+}
+
+
+#productos th {
+    border: solid white 2px;
+}
+
+#productos tbody td{
+    border: dashed blue 2px;
+}
+
+#productos tfoot td{
+    border: dotted green 3px;
+}
+
+
+

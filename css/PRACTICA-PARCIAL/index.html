@@ -1,0 +1,44 @@
+<!-- html 10 puntos
+* crear un documento HTML con estructura semantica.
+* incluir un encabezado con el titulo Actividades deportivas. (ok)
+* crear una tabla con los encabezados: participantes, edad, actividad, acciones. (ok)
+* agregar un contenedor principal para la tabla. (ok)
+* agregar un boton que permita cargar las inscripciones. (ok)
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Parcial Front End</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Actividades deportivas</h1>
+    </header>
+    <main>
+        <section>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Participante</th>
+                        <th>Edad</th>
+                        <th>Actividad</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpoTabla" class="interiorTabla">
+
+                </tbody>
+            </table>
+
+            <button onclick="CargarInscripciones()" id="cargar" class="boton">Cargar inscripciones</button>
+        </section>
+    </main>
+    <footer>Alumno: Gonzalez Joaquin</footer>
+    <script src="./app.js"></script>
+</body>
+</html>
