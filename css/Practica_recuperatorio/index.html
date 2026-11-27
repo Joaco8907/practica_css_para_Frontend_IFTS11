@@ -1,0 +1,57 @@
+<!-- HTML
+ crear un documento con estructura semantica que tenga un contenedor con:
+ * un titulo principal y un subtitulo con las instrucciones. 
+ * un campo de entrada para que el usuario escriba un numero.
+ *un area de mensajes para mostrar la retroalimentacion.
+ * un boton para "Comprobar numero" y un boton para "Volver a jugar" -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="center">
+        <header>
+            <h1>Adivina el numero secreto</h1>
+            <nav></nav>
+        </header>
+        <main>
+            <h2>Intrucciones:</h2>
+            <div>
+                <ol>
+                    <li>ingrese un numero en la casilla indicada.</li>
+                    <li>precione el boton comparar numero.</li>
+                    <li>para volver a jugar precione el boton volver a jugar.</li>
+                </ol>
+            </div>
+
+            <section>
+                <article>
+                    <form>
+                        <fieldset>
+                            <label for="numero">Comparador: </label>
+                            <input type="number" id="numero" name="numero"
+                                placeholder="Ingrese un numero para comparar">
+                            <div id="mensaje">
+
+                            </div>
+                        </fieldset>
+                        <button id="comparar">Comprobar numero</button>
+                        <button id="reiniciar" disabled>Volver a jugar</button>
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer>&COPY; Gonzalez Joaquin, Todos los derechos reservados.</footer>
+        <script src="./app.js"></script>
+    </div>
+</body>
+
+</html>
